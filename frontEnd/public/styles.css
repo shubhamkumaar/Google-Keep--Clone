@@ -13,6 +13,7 @@ body {
 }
 
 header {
+  display: flex;
   background-color: #f5ba13;
   margin: auto -16px;
   padding: 16px 32px;
@@ -25,6 +26,20 @@ header h1 {
   font-weight: 200;
 }
 
+header button{
+  flex-direction: column;
+  margin-left: 80%;
+  padding: 0 16px;
+  font-size: large;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  border-radius: 50px;
+}
+
+.loginPara{
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
 footer {
   position: absolute;
   text-align: center;
